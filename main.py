@@ -41,7 +41,7 @@ async def order(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Чтобы оформить заказ, напишите в свободной форме:\n\nИмя, номер телефона, адрес доставки и дату.\nВаш заказ придёт администратору."
     )
 
-app = ApplicationBuilder().token("7620685309:AAFtDW_4iK0-0Z-vSvG7AriSMRfp8V1MnsA").build()
+app = ApplicationBuilder().token("7620685309:AAFGpixNfCVoyhEYrz4NqKOFkdsGVj6_oEY").build()
 
 conv_handler = ConversationHandler(
     entry_points=[CommandHandler("start", start)],
